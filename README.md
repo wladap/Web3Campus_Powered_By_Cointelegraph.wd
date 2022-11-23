@@ -1,108 +1,136 @@
-<img src="img/enf-header.png" />
+- **Project Name:** Web3Campus powered by Cointelegraph
+- **Team Name:** EdTech Incorporated, 919 North Market Street, Suite 950, City of Wilmington, County of New Castle, Delaware, 19801
+- **EOS Payment Address:** N/A
+- **[Level](https://github.com/eosnetworkfoundation/grant-framework#grant-levels):** 3
+- **Pomelo Grant(s):** N/A
+- **Project is Open-Source:** No
+- **Project was part of Token sale:** No
+- **Repository where Project resides:** N/A
 
-# EOS Network Foundation Grant Framework
-As part of the EOS Network Foundation's (ENF) charter to grow and support the EOS ecosystem, the ENF has developed a multi-level grant program to help power research, software development, and maintenance of the EOSIO code base.  For more information about the ENF, please visit our [website](https://eosnetwork.com/) or [YouTube account](https://www.youtube.com/c/EverythingEOS).
+## Contact
 
-## Grant Guidelines
-Individuals, small teams, and companies are all permitted to apply for grants. The purpose of the grants is to enable developers, businesses and individuals to build on EOS.  Grants [vary in size](#grant-levels) based on the size and scope of the initiative.  All forms of projects are open for submission, core chain modifications, tools, libraries, etc. as long as they are fully open-source.  Strong technical projects that clearly add to the Public Good are preferred.
-The odds of getting your project approved increase if you follow our [acceptance recommendations](docs/acceptance-recommendations.md).  In all cases, you must meet the following [minimum requirements](docs/minimum-requirements.md).
-## Grant Levels
-The EOS Network Foundation (ENF) funds development grants for "Public Good" as well as those to “for profit” entities - with the goal that all grants will enhance the EOS community. Grants proposals are accepted in three levels, each having different amounts and acceptance criteria.  ENF Grants have guidelines, an application process, and a multi-stage approval process.  They also have a milestone based pay-out system.
-<table width="100%">
-  <tr><th>&nbsp;</th><th>Individual / Small</th><th>Team / Medium</th><th>Company / Large</th></tr>
-  <tr><td><b>Amount</b></td><td align="center">Up to $10,000</td><td align="center">Up to $50,000</td><td align="center">Over $50,000</td></tr>
-  <tr>
-    <td valign="top"><b>Requirements</b></td>
-    <td valign="top"><ul><li>No prior Pomelo grant required</li><li>Selection by Grant Committee</li><li>2 Grant Evaluator approvals</li></ul></td>
-    <td valign="top"><ul><li>Prior <a href="https://pomelo.io/">Pomelo grant</a> required</li><li>Selection by Grant Committee</li><li>3 Grant Evaluator approvals</li></ul></td>
-    <td valign="top"><ul><li>Special KYC process</li><li>Selection by Grant Committee</li><li>4 Grant Evaluator approvals</li><li>Pitch Call</li><li>Grants > $100k - ENF Approval</li></ul></td>
-  </tr>
-  <tr>
-    <td valign="top"><b>Benefits</b></td>
-    <td valign="top"><ul><li>Feedback during application process and evaluation</li><li>Introduction to related teams and projects</li></ul></td>
-    <td valign="top"><ul><li>All benefits from Level 1</li><li>Milestone support and engagement</li><li><a href="docs/grant-badge.md">ENF Grant Program Badge</a></li><li><a href="docs/co-promotion.md">Co-promotion on Twitter</a></li></ul></td>
-    <td valign="top"><ul><li>All benefits from Levels 1 and 2</li><li>Introductions to ENF Ventures VC partners*</li></ul></td>
-  </tr>
-</table>
-* ENF Ventures will be established at a future date in 2022.
+- **Contact Name:** Daniel Seman
+- **Contact Email:** daniel@web3campus.com
+- **Website:** https://web3campus.com/
 
-## Three Grant Types
-There are three types of grants that the ENF considers.  Some are originated by the community itself, and some are proposed in the form of an RFP by the ENF.
-### 1. New Proposal
-Most grant applications will take the form of a "New Proposal" from a member of the EOS community.  These projects range from core chain enhancements, SDKs, tools, and applications.  These are initiated by members of the community and run through the standard [Grant Process](#grant-process) below.  You may also want to look at the [list of approved applications](docs/accepted_grant_applications.md).
-### 2. Maintenance Grant
-Maintenance grants are also initiated by the community to bring back support for a library, SDK or tool that has fallen out of maintenance.  These proposals are more limited in scope and milestone to ensure proper progress is made.  Maintenance grants should not be used to add feature or functionality to existing code, but to bring it up to current levels of the chain, operating system, or programming language levels.  New functionality to existing projects can be applied via a "New Proposal". Read more about [Maintenance Grants](docs/maintenance-grants.md).
-### 3. RFP Response
-From time to time, the ENF will propose a work request to the community in the form of an RFP.  All community members, teams and companies are welcome to reply to the RFP.  Responses from multiple teams are expected.  The ENF will then select the best RFP response and award the work to the team that submitted it. [Read more on RFPs and how to reply to them](docs/rfp_info.md).
-<br/><br/>
 
-## Grant Process (for New Proposals)
-The Grant Process consists of four major components: the Application Process, the Approval Process, Milestone Reporting, and Payment(s).  Payments will be made in EOS to the wallet specified in the Grant Application.  The processes must be completed in order and there may be feedback loops in some of the processes as described below.
-### 1. Application Process
-The application process is completed through Github.  You will need to fork the repository, change one of the forms, and submit it via a Pull Request as outlined in the steps below:
-1. [Fork](https://github.com/eosnetworkfoundation/grant-framework/fork) this repository
-2. In your fork, create a copy of the Grant Application template [(applications/application-template.md)](applications/application-template.md). If you're using the GitHub web interface, you will need to create a new file and copy the contents of the template inside the new one. **Please make sure you do not modify the template file directly.**
-3. Name the new file after your project: `myproject_name.md`. Please make sure to put it in the `applications` directory. Make sure your filename does not have any spaces in it and ends with the `.md` extension.
-4. Fill out the template with the details of your project. The more information you provide, the faster the review. Please refer to our [Grant guidelines for most popular grant categories](docs/grant_guidelines_per_category.md) and make sure your deliverables present a similar level of detail. To get an idea of what a strong application looks like, you can have a look at the following examples: [1](./applications/greymass-web-client-sdk.md), [2](./applications/oci-transaction-lifecycle.md). If you are applying for a smaller grant that solely consists of UI work, for example, you do not need to provide as much detail.
-6. When your application is complete, create a Pull Request.  Please note, the Pull Request should only contain _one new file_—the Markdown file you created from the template.
-7. You will see a comment template that contains a checklist. You can leave it as is and tick the checkboxes once the pull request has been created. Please read through these items and check all of them.
-8. Sign off on the [terms and conditions](docs/T&Cs.md) presented by the [CLA assistant](https://github.com/claassistantio) bot as a Contributor License Agreement. You might need to reload the pull request to see its comment.
-9. Your Grant Application is now complete.  The ENF Committee or Evaluators will contact your for next steps.
+## Project Overview
 
-### 2. Approval Process
-The Grant Approval Process consists of a review by the Grant Committee to check if the application fits the needs of the EOS Network community.  If the Committee approves the application, it is then sent on to the Grant Evaluators for technical approval. Please remember, your application will have a higher chance of acceptance and move through the process more quickly if you follow our [acceptance recommendations](docs/acceptance-recommendations.md) and meet all of our [minimum requirements](docs/minimum-requirements.md).  The approval process is outlined in the steps below:
-1. The [Grant Committee](#grant-committee) may issue comments and request changes on the pull request.
-2. Clarifications and amendments made in the comments _must be included in the application_. 
-   - You may address feedback by directly modifying your application and leaving a comment once you're done. 
-   - Generally, if you don't reply within 2 weeks, the application will be closed due to inactivity, but you're always free to reopen it as long as it hasn't been rejected.
-3. When all requested changes are addressed and the terms and conditions have been signed, your application will be marked as `ready for review` and shared internally with the rest of the committee.
-4. Once the Grant Committee has agreed the application meets the needs of the EOS Network Community, it will be shared with the [Grant Evaluators](#grant-evaluators) for technical evaluation.  If it is determined that the application does not meet the needs of the EOS Community, it will be rejected with a reason as to why it did not meet those needs.
-5. Similarly to the Grant Committee process, the Grant Evaluators may issue comments and request more information on your pull request.
-6. Clarifications and amendments to the above comments and request for information _must be included_ in the application.
-7. Once the application has received the required number of Evaluator approvals, it will be accepted and merged.
-8. Applications may be rejected by the Grant Evaluators as being overly ambitious, improper architecture/design or inadequate architecture/design documentation.
-9. Unless specified otherwise, the day on which the application is accepted will be considered the starting date of the project, and will be used to estimate delivery dates.
+### Overview
 
-### 3. Milestone Reporting
-Milestones are to be delivered on the [Grant Milestones](https://github.com/eosnetworkfoundation/grant-milestones/) repository following the [process](https://github.com/eosnetworkfoundation/grant-milestones#milestone-delivery-process) described therein.
+> Please provide the following:
 
-### 4. Payments
-Payments are made in EOS at the time of milestone sign off up to and including the final deliverable milestone.
+- **Name:** Web3Campus powered by Cointelegraph 
+- **Brief Description:** Web3Campus is an online educational platform for learning Web3 skills and professions. Our goal is to supply the Web3 market with professionals capable to build and grow projects through cutting-edge solutions.
+- **Relationship to EOSIO:** Till Feb ‘23, we’re going to create educational materials fully dedicated to EOS: one core course, two mini-courses, and two engaging quests. With efficient learning methodology and Web3 mechanics, we will accelerate the adoption of the EOS ecosystem for Web2 developers. The result of our partnership will be 1K new builders and creators for EOS.  
+- **Reason for Interest:** - We started to form the idea in Q1 2022. The idea is a logical sequel to my media background and my interest in supplying people with the best and most up-to-date knowledge about Web3. Our goal is to teach developers, product managers, and other specialists how Web3 works. To be able to proudly recommend our alumni to friends and partners because we are confident in the quality of our education. We put together all the required ‘pieces of the puzzle’ for a successful EdTech company that has the potential to become a unicorn.
 
-## Changes to a Grant After Approval
-- Accepted grant applications can be amended at any time. However, this _necessitates a reevaluation by the committee_ and the same number of approvals as an application (according to the [levels](#grant-levels)). If your application has been accepted and, during development, you find that your project significantly deviates from the original specification, please open a new pull request that modifies the existing application. This also applies in case of significant delays.
-- If your _delivery schedule_ significantly changes, please also open a pull request with an updated timeline.
-- If your deliveries are significantly delayed and we cannot get a hold of you, we will terminate the grant (3 approvals required, regardless of level. If a member of the committee creates the termination PR, only 2 more approvals are required).
+- Vlad — CEO with strong technical background (as developer and CTO), who is responsible for the design and how it actually works after the development cycle.
+- Me — vision, business development, and Web3 market expertise:
+- Artem — CCO/CMO at one of the biggest EdTech holdings ($185 mln revenue in ‘21)
+- Leo — CBDO  with passion, unlimited energy, and a large network.
+- Cointelegraph — a strong and valuable strategic partner that provides brand, network, and quick go-to-market.
 
-## Grant Teams
-There are three teams that drive the process for ENF Direct Grants: Committee, Evaluators, and Operations
+### Project Details
 
-### Grant Committee
-The Grant Committee are senior members of the EOS community that know the priorities of the ecosystem and can make required initial funding decisions based upon the guidelines of the grant program.  This committee is more business focused than technically focused but they understand the technical nature of the desired future.
-- [Yves La Rose](https://github.com/YvesLaRose)
-- [Aaron Cox](https://github.com/aaroncox)
-- Dafeng Guo
-- Fu Pan
-- Peter Watt
-- Van Kai
-- Wen Huaqiang
-- Damian Byeon
+Demo of the platform: https://app.web3campus.com/courses/demo_lesson (Desktop only)
 
-### Grant Evaluators
-The Grant Evaluators review applications approved by the Grant Committee for technical merit and achievability.   They are more technical in nature and are more concerned with whether the proposal solves the problem optimally, is realizable in the specified time frame, and utilizes proper processes as required for the milestone achievement metrics.
-- [Areg Hayrapetian](https://github.com/arhag)
-- [Matt Witherspoon](https://github.com/spoonincode)
-- [Bucky Kittinger](https://github.com/larryk85)
-- [Bart Wyatt](https://github.com/wanderingbort)
-- [Denis Carriere](https://github.com/DenisCarriere)
-- [Nathan James](https://github.com/nsjames)
+### Ecosystem Fit
 
-### Grant Operations
-The Grant Operations team manages the overall workflow of the ENF Grant process including: application acceptance and routing, notification of acceptance or rejection, monitoring of milestones and distribution of payments.
-- [Ted Cahall](https://github.com/tedcahalleos)
-- [Jeff Werner](https://github.com/jeffwerner00)
+- We’re going to solve the core mission of the ecosystem - to attract individual developers and whole dev teams for building innovative products on EOS.
+- Our target audience is Web2 developers open for entering Web3 and non-tech users who are interested in NFT, P2E, and other entertaining Web3 mechanics
+- We’re capable to solve the problem of difficult field immersion and fill the lack of professionals and teams with high-quality execution.
+- No, there are no such solutions built on EOS. Overall, our competitors are Web2 educational projects. The fight is for the brightest minds. For example https://codecademy.com. Also, there are other Learn2Earn projects: e.g., Buildspace - https://buildspace.so - introduces users to ecosystem tools and rewards them with NFTs. 
+We have a strong vision of how to build high-quality Web3 education and enhance it with working Web3 concepts - from decentralized identity to metaverse. Current competitors have just one of that… or none of that.
 
-## License
-[Apache License 2.0](docs/LICENSE) © EOS Network Foundation
+## Team
 
+### Team members
+
+- **Team Leader:** Vlad Baimurzin
+- Daniel Seman, CPO & Co-founder
+- Artem Kazakov, Interim-CMO & Executive Advisor
+- Leo Glazõw, CBDO & Co-founder
+- Teigi Lee - Advisor
+
+Also, there are 12 high-quality developers and content team.
+### Legal Structure
+- **Registered Legal Entity:** EdTech Incorporated
+- **Registered Address:** 919 North Market Street, Suite 950, City of Wilmington, County of New Castle, Delaware, 19801
+
+### Team Experience
+
+Our team consists of highly-skilled professionals with experience in successful project leadership and expansion. All team members are passionate about building a product that would support the new wave of creators on their way to the Web3 world. 
+
+⦁ Co-founder/CEO - Vlad Baimurzin:
+Ex-Head of Product at Geecko with 5+ years of software engineering as a developer and CTO;
+
+⦁ Co-founder/CPO - Daniel Seman:
+
+Ex-CEO at Cointelegraph. Advanced the media to number one in market share. Launched 7 international editions from scratch. Currently Cointelegraph Advisory Board Member;
+
+⦁ Interim-CMO & Executive Advisor - Artem Kazakov:
+CCO & ex-CMO at Skillbox Holding Limited, revenue in 2021 is $185 mln;
+
+⦁ CBDO & Co-founder - Leo Glazõw:
+Strategic Business Developer at Cointelegraph;
+
+⦁ Advisor - Teigi Lee:
+Head Of Growth Marketing & Expansion at [Blockchain.com](http://blockchain.com/). Previously held senior leadership roles at OKEx, Microsoft, Web Summit;
+
+…and 12 more experienced team members (developers and content team).
+
+### Team Org Repos
+
+N/A
+
+### Team Member Repos
+N/A
+
+### Team LinkedIn Profiles (if available)
+
+- https://www.linkedin.com/in/vladislav-baimurzin/ <Vlad_Baimurzin>
+- https://www.linkedin.com/in/danielseman/ <Daniel_Seman>
+- https://www.linkedin.com/in/akazakov-executive-coach/ <Artem_Kazakov>
+- https://www.linkedin.com/in/leoglazow/ <Leo_Glazõw>
+- https://www.linkedin.com/in/teigilee/ <Teigi_Lee>
+
+## Development Status
+
+⦁ Platform beta version is ready
+⦁ Team is fully formed
+⦁ 60% of Solidity course ready
+⦁ 30% of Cyber Security in Web3 course ready
+
+## Development Roadmap
+
+- Courses and Quests fully related to EOS - How to build DeFi projects course; two mini-courses and two quests. Dec’ 22 - Jan’ 23 - Feb’ 23
+- Learn2Earn -  Reward mechanics to stimulate students to use EOS infrastructure tools, increase course completion and encourage the best students. Dec’22
+- W3C:Jobs and Digital Identity - Decentralized Identity for student’s traction and company-employee interaction built on EOS blockchain - Mar’ 23
+- Contribute2Earn - Reward mechanics to incentivize users to create content, tasks, and guides. Apr’ 23
+- Marketing of EOS Courses only and support of students - The sum will be spent on performance and content marketing, community growth, influencers, and webinars. Dec’ 22 - Apr’ 23
+- Rewards for L2E & C2E - Rewards in EOS to incentivize our users. Until Apr’ 23
+
+### Milestone Summary
+
+- **Total Estimated Duration:** 6 months
+- **Full-Time Equivalent (FTE):** 17 FTE
+- **Total Costs:** 380,000 USD
+
+## Future Plans
+
+SHORT-TERM PROMOTION. 
+To enhance product growth and promote it, we will leverage all major marketing channels: performance and content marketing, webinars, influencers, and community growth. Marketing budget and rewards go directly and only to promote EOS-related courses. 
+
+LONG-TERM GOALS:
+- Product launch of two courses on the US and European markets
+- Launching on LATAM market
+- 3 more courses launched, with self-sufficient mini-courses and quests
+- Breaking into Philippines and Indonesia markets
+- Start of B2B sales
+
+## Additional Information
+
+**How did you hear about the Grants Program?** 
+EOS Network Foundation Website
 
